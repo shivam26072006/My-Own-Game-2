@@ -102,6 +102,10 @@ class Security {
         this.button15.position(600,540);
         this.button15.style('background', 'white');
 
+        this.button16 = createButton('View More');
+        this.button16.position(275,650);
+        this.button16.style('background', 'white');
+
         
 
       
