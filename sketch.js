@@ -15,7 +15,7 @@ function preload() {
  
 
  
-  eyes = loadImage("tips.jpg");
+  eyes = loadImage("gameover.jpg");
 
   sound1 = loadSound("1.mp3");
   sound2 = loadSound("2.mp3");
@@ -35,7 +35,7 @@ function setup() {
 
   eyeimg = createSprite(750,375,750,375);
   eyeimg.addImage(eyes);
-  eyeimg.scale = 4;
+  eyeimg.scale = 3;
   eyeimg.visible = false;
   
  
@@ -68,6 +68,10 @@ function draw() {
 
     
     eyeimg.visible = true;
+    sound6.play();
+    sound6.stop();
+
+    
 
   }
 
