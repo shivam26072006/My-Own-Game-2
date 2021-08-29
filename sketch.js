@@ -33,8 +33,9 @@ function setup() {
 
   
 
-  eyeimg = createSprite(0,0,windowWidth,windowHeight);
+  eyeimg = createSprite(750,375,750,375);
   eyeimg.addImage(eyes);
+  eyeimg.scale = 4;
   eyeimg.visible = false;
   
  
