@@ -15,7 +15,7 @@ function preload() {
  
 
  
-  eyes = loadImage("gameover.jpg");
+  eyes = loadImage("tips.png");
 
   sound1 = loadSound("1.mp3");
   sound2 = loadSound("2.mp3");
@@ -33,9 +33,9 @@ function setup() {
 
   
 
-  eyeimg = createSprite(750,375,750,375);
+  eyeimg = createSprite(750,375);
   eyeimg.addImage(eyes);
-  eyeimg.scale = 3;
+  eyeimg.scale = 0.5;
   eyeimg.visible = false;
   
  
@@ -45,18 +45,18 @@ function setup() {
 }
 
 function draw() {
+  
   background(bg);
   clues();
   security.display();
   textSize(20);
+  
   fill("white");
   text("EYES SCORE: " + score, 100, 25);
 
+
   text("EAR SCORE: " + earscore, 400, 25);
 
-  textSize(25);
-  fill("white");
-  text(":- Shivam", 1350, 720);
 
   if(score===5 && earscore===5){
 
@@ -66,12 +66,8 @@ function draw() {
 
   if(gameState === 1){
 
-    
-    eyeimg.visible = true;
-    sound6.play();
-    sound6.stop();
 
-    
+    eyeimg.visible = true;
 
   }
 

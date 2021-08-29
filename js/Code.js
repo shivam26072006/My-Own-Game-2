@@ -19,7 +19,6 @@ function clues() {
     text("P S Y C H O L O G Y", 100,60)
     fill("lightblue")
     
-    
     fill("white")
     textSize(5)
     text("L I T E R A L L Y", 100,160)
@@ -40,7 +39,6 @@ function clues() {
     text("L I E U T E N A N T", 100,500)
     fill("lightblue")
     
-
 
     fill("white")
     textSize(10)

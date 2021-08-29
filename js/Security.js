@@ -101,9 +101,7 @@ class Security {
         this.button15 = createButton('Play');
         this.button15.position(600,540);
         this.button15.style('background', 'white');
-      
-     
-        
+             
     }
 
    
@@ -223,11 +221,7 @@ class Security {
             sound5.play();
              
         });
-
-       
-
-       
-       
         
     }
+    
 }
